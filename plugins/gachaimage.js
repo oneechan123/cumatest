@@ -48,7 +48,7 @@ Credit: Khael
             throw er
     }
 }
-handler.help = ['gacha'].map(v => v + ' <opsi>')
+handler.help = ['gacha'].map(v => v + ' <teks>')
 handler.tags = ['gacha']
 handler.command = /^gacha$/i
 
