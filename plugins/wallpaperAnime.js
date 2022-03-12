@@ -7,9 +7,9 @@ let handler = async (m, { conn }) => {
     if (!img) throw img
     conn.sendFile(m.chat, img, '', watermark, m, 0, { thumbnail: await (await fetch(img)).buffer() })
 }
-handler.help = ['wallpaperanime']
-handler.tags = ['internet']
-handler.command = /^(wallpaper|wp)anime$/i
+//handler.help = ['wallpaperanime']
+//handler.tags = ['internet']
+//handler.command = /^(wallpaper|wp)anime$/i
 handler.limit = true
 
 module.exports = handler
