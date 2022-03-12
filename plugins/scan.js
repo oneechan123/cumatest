@@ -32,7 +32,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
     } else throw 'nomor tidak terdaftar'
 }
 
-handler.help = ['scan'].map(v => v + ' [62XXXX]')
+handler.help = ['scan'].map(v => v + ' [nomor]')
 handler.tags = ['tools']
 handler.command = /^scan$/i
 

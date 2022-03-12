@@ -54,7 +54,7 @@ Banned: ${banned ? '✅' : '❌'}
     conn.sendFile(m.chat, pp, 'pp.jpg', str, m, false, { contextInfo: { mentionedJid } })
   }
 }
-handler.help = ['profile [@62XXXX]']
+handler.help = ['profile [@user]']
 handler.tags = ['tools']
 handler.command = /^profile?$/i
 module.exports = handler
